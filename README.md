@@ -13,26 +13,26 @@ The interface is similar to the one of other popular software such as PyTorch an
 The program is composed by 5 modules:
 
 ###### MLP.py:
-	Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. 
-	The activation function implemented is the (old fashioned) sigmoid.
-	The parameter update is performed using SGD or Adam.
+Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. 
+The activation function implemented is the (old fashioned) sigmoid.
+The parameter update is performed using SGD or Adam.
  
 ###### Filters.py: 
-	Defines the convolutional layers such as filters and pooling layers.
-	The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.
-	The convolutional layers are initialized with random values and with user defined hyperparameters.
-	They leverages on the Leaky ReLu activation function. They can also implement padding.
+Defines the convolutional layers such as filters and pooling layers.
+The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.
+The convolutional layers are initialized with random values and with user defined hyperparameters.
+They leverages on the Leaky ReLu activation function. They can also implement padding.
 
 ###### CNN.py:
-	Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.
+Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.
 
 ###### Datasets.py: 
-	It’s in charge of generate a compatible set of lists of datasets for the CNN.
-	It implements different classes for each dataset available.
-	The aim is also to performs normalization and zero-cenetering on the input.
+It’s in charge of generate a compatible set of lists of datasets for the CNN.
+It implements different classes for each dataset available.
+The aim is also to performs normalization and zero-cenetering on the input.
 
 ###### main.py:
-	To pick the wanted dataset and instantiate the user defined network.
+To pick the wanted dataset and instantiate the user defined network.
 
 To start building the neural network it’s enough to chain the desired types of layers.
 At first are used convolutional layers, that takes as input a volume of the size of the input images.
@@ -45,7 +45,7 @@ At the moment, only the MNIST dataset has been implemented.
 Finally, just call up the functions for training and testing and print out the results.
 The preview frequency allows to preview feature maps.
 
-<h1> MNIST classification <h1>
+<h1> MNIST classification </h1>
 
 ###### Dataset:
 The image recognition task on the MNIST dataset is carried out using the above architecture.  
