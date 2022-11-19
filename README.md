@@ -60,7 +60,7 @@ The pool layers are in charge of downsampling the spatial dimensions of the inpu
 This will discard exactly 75% of the activations in the input volume.  
 Fully Connected layers (FC) use the sigmoid activation function, although it is an uncommon choice to mix different activations into one CNN, this choice let the output scores be considered as a probability distribution without using the Softmax classifier and the cross entropy loss.  
 
-#### LOSS function:
+#### Loss function:
 There are many ways to quantify the data loss, but in this example it’s used the Mean Squared Error (MSE), perhaps the simplest and most common loss function.  
 The full loss function normally is defined as the average data loss over the training examples and the regularization.  
 The regularization has not been introduced in this solution even if without it, the weights are free to get any arbitrary value among different training.  
