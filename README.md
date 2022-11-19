@@ -34,6 +34,7 @@ The aim is also to performs normalization and zero-cenetering on the input.
 ###### main.py:
 To pick the wanted dataset and instantiate the user defined network.
 
+### UI:  
 To start building the neural network it’s enough to chain the desired types of layers.
 At first are used convolutional layers, that takes as input a volume of the size of the input images.
 Pooling layers can be added, those will perform a downsampling along the spatial dimensions.
