@@ -13,7 +13,8 @@ The interface is similar to the one of other popular software such as PyTorch an
 The program is composed by 5 modules:
 
 ###### MLP.py:
-	Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. The activation function implemented is the (old fashioned) sigmoid.
+	Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. 
+	The activation function implemented is the (old fashioned) sigmoid.
 	The parameter update is performed using SGD or Adam.
  
 ###### Filters.py: 
