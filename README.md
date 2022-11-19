@@ -7,9 +7,6 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 <h1> Program structure </h1>
 
-
-
-
 The program is composed by 5 modules:
 
 ##### MLP.py:
@@ -88,6 +85,7 @@ These results are displayed with a user-defined period, expressed as a percentag
 Below can be seen an example produced by the instantiated network.  
   
 <h1> Results </h1>
+
 After the training it is possible to analyze the results obtained.  
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
 Accuracy shows no signs of overfitting. The validation accuracy is equal to 91.3% while the test accuracy is 90.5% as reported below.  
