@@ -19,12 +19,12 @@ The program is composed by 5 modules:
  
 ###### Filters.py: 
 	Defines the convolutional layers such as filters and pooling layers.
-	The pooling layer perform a downsample of the input volume using a average pooling or a max 	pooling.
+	The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.
 	The convolutional layers are initialized with random values and with user defined hyperparameters.
 	They leverages on the Leaky ReLu activation function. They can also implement padding.
 
 ###### CNN.py:
-	Defines the relations between the instantiated objects, it iterates through different layers the forward 	and backwards pass and manages the training, evaluation, testing and plotting steps.
+	Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.
 
 ###### Datasets.py: 
 	It’s in charge of generate a compatible set of lists of datasets for the CNN.
@@ -48,9 +48,9 @@ The preview frequency allows to preview feature maps.
 <h1> MNIST classification <h1>
 
 ###### Dataset:
-The image recognition task on the MNIST dataset is carried out using the above architecture.
-The dataset is composed of small images arranged in two sets, consisting of 60000 training pictures and 10000 for the test.
-The training dataset is then subdivided into 50000 samples for training and 10000 for validation.
+The image recognition task on the MNIST dataset is carried out using the above architecture.  
+The dataset is composed of small images arranged in two sets, consisting of 60000 training pictures and 10000 for the test.  
+The training dataset is then subdivided into 50000 samples for training and 10000 for validation.  
 
 ###### Network:
 In the conv layers are used small filters, 3x3, using a stride of 1, and padding the input volume with zeros in such way that the conv layer does not alter the spatial dimensions of the input. 
