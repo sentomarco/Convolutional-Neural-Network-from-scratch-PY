@@ -13,8 +13,8 @@ The program is composed by 5 modules:
 
 ##### MLP.py:
 Defines the basic block of the Multi Layer Perceptron and is in charge of generate the fully connected 	layers. 
-The activation function implemented is the (old fashioned) sigmoid.
-The parameter update is performed using SGD or Adam.
+The activation function implemented is the (old fashioned) sigmoid.  
+The parameter update is performed using SGD or Adam.  
  
 ##### Filters.py: 
 Defines the convolutional layers such as filters and pooling layers.  
@@ -23,15 +23,15 @@ The convolutional layers are initialized with random values and with user define
 They leverages on the Leaky ReLu activation function. They can also implement padding.  
 
 ##### CNN.py:
-Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.
+Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.  
 
 ##### Datasets.py: 
-It’s in charge of generate a compatible set of lists of datasets for the CNN.
-It implements different classes for each dataset available.
-The aim is also to performs normalization and zero-cenetering on the input.
+It’s in charge of generate a compatible set of lists of datasets for the CNN.  
+It implements different classes for each dataset available.  
+The aim is also to performs normalization and zero-cenetering on the input.  
 
 ##### main.py:
-To pick the wanted dataset and instantiate the user defined network.
+To pick the wanted dataset and instantiate the user defined network.  
 
 
 <h1> Build the network </h1>
