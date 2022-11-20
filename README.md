@@ -87,6 +87,8 @@ In this way the net is trained on a subset of about 20 / 50 samples for many epo
 The second debugging tool is to look at the feature maps produced by the different filters.  
 These results are displayed with a user-defined period, expressed as a percentage of the dataset samples. This parameter is the preview_ratio.  
 Below can be seen an example produced by the instantiated network.  
+
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/feature_maps.png)
   
 <h1> Results </h1>
 
