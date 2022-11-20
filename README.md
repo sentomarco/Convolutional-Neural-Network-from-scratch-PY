@@ -86,7 +86,8 @@ This leads also to a gradual “forgetting” effects of the network that in tur
 
 #### Parameter update:
 The gradient from the backpropagation is used for the parameter update. Even though a minibatch gradient descent would be more computational efficient, has been implemented the stochastic GD, evaluating the gradient after each sample.  
-Two different possibilities have been defined: vanilla SGD and Adam.  
+Since it is usually helpful to anneal the learning rate over time, it has been applied an exponential decay.  
+Two different possibilities have been defined for the parameter update: vanilla SGD and Adam.  
 Applying the Adam per-parameter optimizer to the FC layers leads to a huge improvement of the performances as shown below.  
 
 #### Babysitting the learning process:
