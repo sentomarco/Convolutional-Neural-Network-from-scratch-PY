@@ -9,7 +9,7 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/structure.png)
 
-<h3>  Overview: </h3>
+<h2>  Overview: </h2>
 
 ### [Program structure](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-program-structure-) 
 
@@ -20,7 +20,7 @@ The interface is similar to the one of other popular software such as PyTorch an
 ### [Results](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-results-)  
 
 
-<h1> Program structure </h1>
+<h2> Program structure </h2>
 
 The program is composed by 5 modules:
 
@@ -47,7 +47,7 @@ The aim is also to performs normalization and zero-cenetering on the input.
 To pick the wanted dataset and instantiate the user defined network.  
 
 
-<h1> Build the network </h1>
+<h2> Build the network </h2>
 
 To start building the neural network it’s enough to chain the desired types of layers.  
 At first are used convolutional layers, that takes as input a volume of the size of the input images.  
@@ -60,7 +60,7 @@ At the moment, only the MNIST dataset has been implemented.
 Finally, just call up the functions for training and testing and print out the results.  
 The preview frequency allows to preview feature maps.  
 
-<h1> An Example: MNIST classification </h1>
+<h2> An Example: MNIST classification </h2>
 
 #### Dataset:
 The image recognition task on the MNIST dataset is carried out using the above architecture.  
@@ -103,7 +103,7 @@ Below can be seen an example produced by the instantiated network.
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/feature_maps.png)
   
-<h1> Results </h1>
+<h2> Results </h2>
 
 After the training it is possible to analyze the results obtained.  
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
