@@ -77,7 +77,7 @@ Fully Connected layers (FC) use the sigmoid activation function, although it is 
 
 #### Loss function:
 There are many ways to quantify the data loss, but in this example it’s used the Mean Squared Error (MSE), perhaps the simplest and most common loss function.  
-The full loss function normally is defined as the average data loss over the training examples and the regularization.  
+The full loss function normally is defined as the average data loss over the training examples and the regularization.  https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/ADAM%20results.png
 The regularization has not been introduced in this solution even if without it, the weights are free to get any arbitrary value among different training.  
 This is not a desirable behaviour since this leads to a reduced ability to generalize: it is much better to get a classificiation value as sum of diffuse contributes of small weights rather than from one single product with a large weight.  
 The effect of the regularization is then to reduce the absolute values of the weigth and spread it uniformly over different weights.  
@@ -110,11 +110,11 @@ After the training it is possible to analyze the results obtained for both SGD a
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
 Using Adam the validation accuracy is equal to 91.16% while the test accuracy is 91.06%. The main difference is in the speed with which Adam achieves an excellent accuracy, resulting in a higher training accuracy. Accuracy shows no signs of overfitting. 
 
-
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/SDG%20results.png)
 
 `FIG1 shows loss and accuracy for SGD.`
 
-
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/ADAM%20results.png)
 
 `FIG2 shows loss and accuracy with Adam optimizer.`
 
