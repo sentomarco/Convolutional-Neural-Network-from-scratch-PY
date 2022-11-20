@@ -36,16 +36,16 @@ To pick the wanted dataset and instantiate the user defined network.
 
 <h1> Build the network </h1>
 
-To start building the neural network it’s enough to chain the desired types of layers.
-At first are used convolutional layers, that takes as input a volume of the size of the input images.
-Pooling layers can be added, those will perform a downsampling along the spatial dimensions.
-The network is concluded with the fully-connected layers that will compute the class scores.
+To start building the neural network it’s enough to chain the desired types of layers.  
+At first are used convolutional layers, that takes as input a volume of the size of the input images.  
+Pooling layers can be added, those will perform a downsampling along the spatial dimensions.  
+The network is concluded with the fully-connected layers that will compute the class scores.  
 
-Then the desired dataset it’s loaded by calling the corresponding class from the “Datasets” module.
-At the moment, only the MNIST dataset has been implemented.
+Then the desired dataset it’s loaded by calling the corresponding class from the “Datasets” module.  
+At the moment, only the MNIST dataset has been implemented.  
 
-Finally, just call up the functions for training and testing and print out the results.
-The preview frequency allows to preview feature maps.
+Finally, just call up the functions for training and testing and print out the results.  
+The preview frequency allows to preview feature maps.  
 
 <h1> MNIST classification </h1>
 
