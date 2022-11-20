@@ -9,6 +9,12 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/structure.png)
 
+<h1>  Overview: </h1>
+[Program structure](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY#-program-structure-)
+[Build the network](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY#-build-the-network-)
+[An Example: MNIST classification](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY#-an-example:-mnist-classification-)
+[Results](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY#-results-)
+
 <h1> Program structure </h1>
 
 The program is composed by 5 modules:
@@ -49,7 +55,7 @@ At the moment, only the MNIST dataset has been implemented.
 Finally, just call up the functions for training and testing and print out the results.  
 The preview frequency allows to preview feature maps.  
 
-<h1> MNIST classification </h1>
+<h1> An Example: MNIST classification </h1>
 
 #### Dataset:
 The image recognition task on the MNIST dataset is carried out using the above architecture.  
