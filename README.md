@@ -17,10 +17,10 @@ The activation function implemented is the (old fashioned) sigmoid.
 The parameter update is performed using SGD or Adam.
  
 ##### Filters.py: 
-Defines the convolutional layers such as filters and pooling layers.
-The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.
-The convolutional layers are initialized with random values and with user defined hyperparameters.
-They leverages on the Leaky ReLu activation function. They can also implement padding.
+Defines the convolutional layers such as filters and pooling layers.  
+The pooling layer perform a downsample of the input volume using a average pooling or a max pooling.  
+The convolutional layers are initialized with random values and with user defined hyperparameters.  
+They leverages on the Leaky ReLu activation function. They can also implement padding.  
 
 ##### CNN.py:
 Defines the relations between the instantiated objects, it iterates through different layers the forward and backwards pass and manages the training, evaluation, testing and plotting steps.
