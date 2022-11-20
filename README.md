@@ -9,7 +9,7 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/structure.png)
 
-<h1>  Overview: </h1>
+<h3>  Overview: </h3>
 
 ### [Program structure](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-program-structure-) 
 
