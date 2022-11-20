@@ -106,10 +106,17 @@ Below can be seen an example produced by the instantiated network.
   
 <h2> Results </h2>
 
-After the training it is possible to analyze the results obtained.  
+After the training it is possible to analyze the results obtained for both SGD and Adam.  
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
-Accuracy shows no signs of overfitting. The validation accuracy is equal to 91.3% while the test accuracy is 90.5% as reported below.  
- 
+Using Adam the validation accuracy is equal to 91.16% while the test accuracy is 91.06%. The main difference is in the speed with which Adam achieves an excellent accuracy, resulting in a higher training accuracy. Accuracy shows no signs of overfitting. 
+
+
+
+`FIG1 shows loss and accuracy for SGD.`
+
+
+
+`FIG2 shows loss and accuracy with Adam optimizer.`
 
 
 
