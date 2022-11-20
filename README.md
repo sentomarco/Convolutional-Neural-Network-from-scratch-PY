@@ -11,13 +11,13 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 <h2>  Overview: </h2>
 
-### [Program structure](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-program-structure-) 
+#### [Program structure](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-program-structure-) 
 
-### [Build the network](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-build-the-network-)  
+#### [Build the network](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-build-the-network-)  
 
-### [An Example: MNIST classification](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-an-example:-mnist-classification-)  
+#### [An Example: MNIST classification](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-an-example:-mnist-classification-)  
 
-### [Results](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-results-)  
+#### [Results](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-results-)  
 
 
 <h2> Program structure </h2>
