@@ -15,7 +15,7 @@ The interface is similar to the one of other popular software such as PyTorch an
 
 #### [Build the network](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-build-the-network-)  
 
-#### [An Example: MNIST classification](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-an-example:-mnist-classification-)  
+#### [An example: MNIST classification](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-an-example:-mnist-classification-)  
 
 #### [Results](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/README.md#-results-)  
 
@@ -60,7 +60,7 @@ At the moment, only the MNIST dataset has been implemented.
 Finally, just call up the functions for training and testing and print out the results.  
 The preview frequency allows to preview feature maps.  
 
-<h2> An Example: MNIST classification </h2>
+<h2> An example: MNIST classification </h2>
 
 #### Dataset:
 The image recognition task on the MNIST dataset is carried out using the above architecture.  
