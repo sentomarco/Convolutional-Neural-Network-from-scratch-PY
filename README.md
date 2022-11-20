@@ -1,8 +1,8 @@
 # Convolutional Neural Network from scratch [PY]
+
+### See also: [Convolutional Neural Network from scratch [CPP]](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP)
  
 **Author: Marco Sento**
-
-**See also  [Convolutional Neural Network from scratch [CPP]](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-CPP)**
 
 The framework gives the possibility to generate istances of different layers typologies in order to set-up your own neural network.
 The interface is similar to the one of other popular software such as PyTorch and Tensorflow, but this project is not intended as an alternative to them rather as a personal challenge to acquire a deeper knowledge about the structure and working principles of Convolutional Neural Networks.
