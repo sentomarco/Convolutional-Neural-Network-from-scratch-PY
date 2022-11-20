@@ -82,7 +82,7 @@ Two possibilities are provided to verify the proper functioning of the network:
 The first is to perform a sanity check, before starting the training process, through the special function of the CNN.py module.  
 In this way the net is trained on a subset of about 20 / 50 samples for many epoch. If everything works as it should then the Loss go to zero. 
 
-![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/sanity check.png)
+![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/sanity-check.png)
   
 The second debugging tool is to look at the feature maps produced by the different filters.  
 These results are displayed with a user-defined period, expressed as a percentage of the dataset samples. This parameter is the preview_ratio.  
