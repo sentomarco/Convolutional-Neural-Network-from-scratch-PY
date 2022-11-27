@@ -113,11 +113,11 @@ The main difference is in the speed with which Adam achieves a good accuracy, re
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/SDG%20results.png)
 
-`FIG1 shows loss and accuracy for SGD.`
+`FIG1: loss and accuracy for SGD.`
 
 ![immagine](https://github.com/sentomarco/Convolutional-Neural-Network-from-scratch-PY/blob/main/Screenshots/ADAM%20results.png)
 
-`FIG2 shows loss and accuracy with Adam optimizer.`
+`FIG2: loss and accuracy with Adam optimizer.`
 
 
 
