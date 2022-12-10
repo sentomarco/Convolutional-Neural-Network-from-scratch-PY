@@ -109,7 +109,7 @@ Below can be seen an example produced by the instantiated network.
 After the training it is possible to analyze the results obtained for both SGD and Adam.  
 The loss function is quite variable as expected in the case of unit batch sizes but still a sufficiently low value has been reached.  
 Using Adam the validation accuracy is equal to 91.16% while the test accuracy is 91.06%.  
-The main difference is in the speed with which Adam achieves a good accuracy, resulting in a higher training accuracy. Accuracy shows no signs of overfitting. 
+The main difference is in the speed with which Adam achieves a good accuracy, resulting in a higher training accuracy. Accuracy shows no signs of overfitting.  
 
 It is interesting to note that training the same neural network implemented in python takes 400% more time than the network implemented in C++.  
 In 50 min. you train a network that in C++ require 10 min.  
